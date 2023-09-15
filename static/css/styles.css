@@ -1,0 +1,43 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 400;
+  line-height: 1;
+  color: black;
+}
+
+h4 {
+  font-weight: 400;
+  line-height: 1;
+  padding: 1% 0%;
+  color: gray;
+}
+
+.navbar {
+  margin-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.nav-item {
+  margin: 0 1.2rem;
+}
+
+.pro-image {
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
