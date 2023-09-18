@@ -1,10 +1,18 @@
+.container-fluid {
+  padding: 1.5% 10% 5% !important;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
 
+/* section {
+  padding: 50px;
+} */
+
 h1 {
   font-size: 3.5rem;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 900;
 }
 
@@ -16,13 +24,14 @@ h2 {
 
 h4 {
   font-weight: 400;
-  line-height: 1;
-  padding: 1% 0%;
+  line-height: 1.5;
+  padding: 5% 0%;
   color: gray;
 }
 
 .navbar {
   margin-bottom: 3rem;
+  background-color: #e3f2fd;
 }
 
 .navbar-brand {
@@ -36,8 +45,29 @@ h4 {
   margin: 0 1.2rem;
 }
 
+/* #intro {
+  padding: 50px;
+} */
+
+#intro {
+  text-align: center;
+}
+
 .pro-image {
-  width: 100px;
-  height: 100px;
-  display: inline;
+  /* text-align: center; */
+  border-radius: 50%;
+  max-width: 290px;
+  max-height: 290px;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 990px) {
+  .intro-text {
+    text-align: left;
+  }
+  .pro-image {
+    left: 60%;
+    position: absolute;
+  }
 }
