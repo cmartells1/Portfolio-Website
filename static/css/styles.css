@@ -6,10 +6,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* section {
-  padding: 50px;
-} */
-
 h1 {
   font-size: 3.5rem;
   line-height: 1.5;
@@ -29,6 +25,22 @@ h4 {
   color: gray;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+/* 
+.bottom-border {
+  border-bottom: 2px dotted;
+  margin: 0 auto;
+  justify-content: center;
+  width: 1000px;
+} */
+
 .navbar {
   margin-bottom: 3rem;
   background-color: #e3f2fd;
@@ -45,9 +57,11 @@ h4 {
   margin: 0 1.2rem;
 }
 
-/* #intro {
-  padding: 50px;
-} */
+.heading {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 #intro {
   text-align: center;
@@ -62,6 +76,10 @@ h4 {
   height: auto;
 }
 
+.about-text {
+  text-align: center;
+}
+
 @media (min-width: 990px) {
   .intro-text {
     text-align: left;
@@ -69,5 +87,8 @@ h4 {
   .pro-image {
     left: 60%;
     position: absolute;
+  }
+  .about-content {
+    padding: 0;
   }
 }
