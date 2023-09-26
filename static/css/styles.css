@@ -69,9 +69,9 @@ svg {
 
 .pro-image {
   /* text-align: center; */
-  border-radius: 50%;
-  max-width: 290px;
-  max-height: 290px;
+  border-radius: 30%;
+  max-width: 350px;
+  max-height: 350px;
   width: auto;
   height: auto;
 }
@@ -80,15 +80,43 @@ svg {
   text-align: center;
 }
 
-@media (min-width: 990px) {
+.skill-text {
+  margin-bottom: 50px;
+}
+
+.skills-cards {
+  display: inline;
+  flex-direction: column;
+}
+
+.card-header {
+  background-color: #e3f2fd;
+}
+
+.lang-list {
+  column-count: 2;
+}
+
+@media (min-width: 768px) {
   .intro-text {
     text-align: left;
   }
   .pro-image {
-    left: 60%;
-    position: absolute;
+    display: inline;
+    justify-content: end;
+  }
+  .intro-picture {
+    text-align: right;
   }
   .about-content {
     padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
